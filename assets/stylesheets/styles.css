@@ -11,6 +11,7 @@ html {
 /* Header Section */
 header {
   padding: 0.25rem 0.75rem;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -61,4 +62,15 @@ nav li {
     padding: 0 0.5rem;
     display: inline-block;
   }
+}
+
+/* Banner Section */
+.banner {
+  padding: 0 3rem;
+  height: 90vh;
+  background-image: url(../images/banner-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
 }
