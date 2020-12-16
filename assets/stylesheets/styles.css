@@ -1,0 +1,61 @@
+/* Universal */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+nav {
+  width: 900px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.25rem 1rem;
+  flex-basis: 10rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.menu-ico {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  nav,
+  .reservation {
+    display: none;
+  }
+
+  .menu-ico {
+    padding: 0 0.5rem; 
+    display: inline-block;
+  }
+}
