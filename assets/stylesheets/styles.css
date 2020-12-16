@@ -27,6 +27,7 @@ h1 {
 }
 
 h4 {
+  margin: 1rem auto;
   font-size: 2rem;
   font-weight: 300;
 }
@@ -98,3 +99,8 @@ nav li {
   align-items: center;
 }
 
+.heading {
+  width: 60%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
