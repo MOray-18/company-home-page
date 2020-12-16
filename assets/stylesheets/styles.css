@@ -8,6 +8,11 @@ html {
   display: flex;
 }
 
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
+}
 /* Typography */
 h1,
 h4 {
@@ -84,7 +89,7 @@ nav li {
 
 /* Banner Section */
 .banner {
-  padding: 0 3rem;
+  padding: 0 1rem;
   height: 90vh;
   background-image: url(../images/banner-background.jpg);
   background-repeat: no-repeat;
@@ -92,3 +97,4 @@ nav li {
   justify-content: flex-start;
   align-items: center;
 }
+
