@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+}
+
 /* Header Section */
 header {
   padding: 0.25rem 0.75rem;
@@ -55,7 +59,7 @@ nav li {
   }
 
   .menu-ico {
-    padding: 0 0.5rem; 
+    padding: 0 0.5rem;
     display: inline-block;
   }
 }
