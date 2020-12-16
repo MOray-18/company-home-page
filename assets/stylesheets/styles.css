@@ -8,6 +8,24 @@ html {
   display: flex;
 }
 
+/* Typography */
+h1,
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem auto;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 /* Header Section */
 header {
   padding: 0.25rem 0.75rem;
